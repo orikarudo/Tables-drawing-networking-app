@@ -1,15 +1,15 @@
 //
-//  Project_6Tests.swift
-//  Project 6Tests
+//  Project_4Tests.swift
+//  Project 4Tests
 //
-//  Created by Ori Karudo on 5/12/19.
+//  Created by Ori Karudo on 8/15/19.
 //  Copyright © 2019 Ori Karudo. All rights reserved.
 //
 
 import XCTest
-@testable import Project_6
+@testable import Project_4
 
-class Project_6Tests: XCTestCase {
+class Project_4Tests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

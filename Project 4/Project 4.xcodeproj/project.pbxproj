@@ -14,6 +14,8 @@
 		381AC5FE2305D3080036A02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381AC5FC2305D3080036A02E /* LaunchScreen.storyboard */; };
 		381AC6092305D3080036A02E /* Project_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AC6082305D3080036A02E /* Project_4Tests.swift */; };
 		381AC6142305D3080036A02E /* Project_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AC6132305D3080036A02E /* Project_4UITests.swift */; };
+		381AC6222305DA8A0036A02E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AC6212305DA8A0036A02E /* Drawing.swift */; };
+		381AC6262309BD390036A02E /* GraphingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AC6252309BD390036A02E /* GraphingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		381AC60F2305D3080036A02E /* Project 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		381AC6132305D3080036A02E /* Project_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_4UITests.swift; sourceTree = "<group>"; };
 		381AC6152305D3080036A02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381AC6212305DA8A0036A02E /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		381AC6252309BD390036A02E /* GraphingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				381AC5F32305D3050036A02E /* AppDelegate.swift */,
+				381AC6252309BD390036A02E /* GraphingViewController.swift */,
 				381AC5F52305D3050036A02E /* ViewController.swift */,
 				381AC5F72305D3050036A02E /* Main.storyboard */,
 				381AC5FA2305D3080036A02E /* Assets.xcassets */,
 				381AC5FC2305D3080036A02E /* LaunchScreen.storyboard */,
 				381AC5FF2305D3080036A02E /* Info.plist */,
+				381AC6212305DA8A0036A02E /* Drawing.swift */,
 			);
 			path = "Project 4";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				381AC5F62305D3050036A02E /* ViewController.swift in Sources */,
 				381AC5F42305D3050036A02E /* AppDelegate.swift in Sources */,
+				381AC6262309BD390036A02E /* GraphingViewController.swift in Sources */,
+				381AC6222305DA8A0036A02E /* Drawing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
